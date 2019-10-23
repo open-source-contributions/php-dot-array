@@ -1,6 +1,6 @@
 # [PHP] DotArray -  Accessing arrays using dot notation and asterisk
 
-
+[![Latest Stable Version](https://poser.pugx.org/raggitech/php-dot-array/v/stable)](https://packagist.org/packages/raggitech/php-dot-array) [![Total Downloads](https://poser.pugx.org/raggitech/php-dot-array/downloads)](https://packagist.org/packages/raggitech/php-dot-array) [![License](https://poser.pugx.org/raggitech/php-dot-array/license)](https://packagist.org/packages/raggitech/php-dot-array)
 
 DotArray provides an quick/easy access to arrays of data with dot-notation and asterisk.
 
