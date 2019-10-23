@@ -100,15 +100,15 @@ $dot['users.raggi.created_at'] = date('r', time());
 
 Returns the value of a given key:
 ```php
-echo $dot->get('users.*.name');
+print_r($dot->get('users.*.name'));
 
 // ArrayAccess
-echo $dot['users.*.name'];
+print_r($dot['users.*.name']);
 ```
 
 Returns a given default value, if the given key doesn't exist:
 ```php
-echo $dot->get('users.*.name', 'Raggi');
+print_r($dot->get('users.*.name', 'Raggi'));
 ```
 
 
