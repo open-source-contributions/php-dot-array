@@ -1,0 +1,35 @@
+{
+    "name": "raggitech/php-dot-array",
+    "description": "Access array data quickly/easily using dot-notation and asterisk.",
+    "keywords": [
+        "php",
+        "array",
+        "php array",
+        "php dot array",
+        "dot notation",
+        "asterisk",
+        "raggitech"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moamen Eltouny",
+            "email": "raggi@raggitech.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "files": ["src/helper.php"],
+        "psr-4": {
+            "RaggiTech\\DotArray\\" : "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
