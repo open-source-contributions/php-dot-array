@@ -187,7 +187,7 @@ class DotArray implements ArrayAccess, Countable, IteratorAggregate, JsonSeriali
 
                     break;
                 } else {
-                    if (isset($items[$key[$index]])) $items[$key[$index]] = null;
+                    if (!isset($items[$key[$index]])) $items[$key[$index]] = null;
                     $items = &$items[$key[$index]];
                 }
             }
