@@ -1,7 +1,7 @@
 {
     "name": "raggitech/php-dot-array",
     "description": "Access array data quickly/easily using dot-notation and asterisk.",
-    "version": "1.0.1",
+    "version": "0.0.1",
     "keywords": [
         "php",
         "array",
