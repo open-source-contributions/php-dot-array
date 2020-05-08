@@ -10,8 +10,8 @@ use Countable, ArrayAccess, ArrayIterator, JsonSerializable, IteratorAggregate;
  * Access array data quickly/easily using dot-notation.
  * 
  * @package RaggiTech\DotArray
- * @author Moamen Eltouny <raggi@raggitech.com>
- * @version 1.0.0
+ * @author Moamen Eltouny <support@raggitech.com>
+ * @version 0.0.2
  * @see https://github.com/raggitech/php-dot-array
  */
 class DotArray implements ArrayAccess, Countable, IteratorAggregate, JsonSerializable
@@ -254,7 +254,7 @@ class DotArray implements ArrayAccess, Countable, IteratorAggregate, JsonSeriali
      */
     public function toJson(string $key = null, $options = 0): string
     {
-        return json_encode($this->get($key ?? '*'), $options);
+        return json_encode($key ? $this->get($key ?? '*') : $this->all(), $options);
     }
 
     /**
